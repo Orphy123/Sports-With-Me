@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="genders">
+
+        <item>Soccer</item>
+
+        <item>Tennis</item>
+    </string-array>
+    <string-array name="interests">
+        <item>Soccer</item>
+        <item>Tennis</item>
+        <item>Both</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="about_me">About Me</string>
+    <string name="app_name">Sports With Me</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="camera">Camera</string>
+    <string name="cancel">Cancel</string>
+    <string name="capture_from">Capture from</string>
+    <string name="create_account">Create account</string>
+    <string name="create_new">Create new</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="default_web_client_id" translatable="false">685475063023-mvr2hdk66arbs1t6p385d5ioa8pt9oq5.apps.googleusercontent.com</string>
+    <string name="delete">Delete</string>
+    <string name="delete_confirmation_body">Are you sure you want to delete this item?</string>
+    <string name="delete_confirmation_title">Delete Confirmation</string>
+    <string name="done">Done</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="error">Error</string>
+    <string name="firebase_database_url" translatable="false">https://newtin-c922a-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">685475063023</string>
+    <string name="gender">Sports of Choice</string>
+    <string name="generate_profiles">Generate profiles</string>
+    <string name="google_api_key" translatable="false">AIzaSyCWDrJkB-WCkXfsT97VGliTiEJj0QYKSFc</string>
+    <string name="google_app_id" translatable="false">1:685475063023:android:7417b18f901bcd2acee71a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCWDrJkB-WCkXfsT97VGliTiEJj0QYKSFc</string>
+    <string name="google_storage_bucket" translatable="false">newtin-c922a.appspot.com</string>
+    <string name="i_am_interested_in">I am interested in</string>
+    <string name="its_a">It\'s a</string>
+    <string name="match">match!</string>
+    <string name="matches">Matches</string>
+    <string name="name">Name</string>
+    <string name="no_match_value_passed">No match value passed</string>
+    <string name="no_matches">You don\'t have any matches yet :(</string>
+    <string name="no_more_profiles">There\'s no one new around you!</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="photo">Photo</string>
+    <string name="pick_a_date">Pick a date</string>
+    <string name="project_id" translatable="false">newtin-c922a</string>
+    <string name="retry">Retry</string>
+    <string name="say_something_nice">Say something nice!</string>
+    <string name="select_content_type">Select content type</string>
+    <string name="send">Send</string>
+    <string name="sign_in_with_google">Sign In with Google</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_up_with_google">Sign Up with Google</string>
+    <string name="upload">Upload</string>
+    <string name="write_something_interesting">Write something interesting…</string>
+    <string name="you_matched_with_on">You matched with %1$s on %2$s</string>
+    <style name="Theme.TinderCloneCompose" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+</resources>

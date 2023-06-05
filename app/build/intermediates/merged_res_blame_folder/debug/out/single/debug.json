@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_woman_1.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/woman_1.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_woman_10.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/woman_10.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_man_8.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/man_8.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.apiguave.newTins.app-main-68:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.apiguave.newTins.app-main-68:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_woman_4.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/woman_4.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.apiguave.newTins.app-main-68:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_tinder_logo.png.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/tinder_logo.png"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_man_11.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/man_11.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/xml_data_extraction_rules.xml.flat",
+        "source": "com.apiguave.newTins.app-main-68:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/mipmap-hdpi_spor.png.flat",
+        "source": "com.apiguave.newTins.app-main-68:/mipmap-hdpi/spor.png"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_man_5.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/man_5.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_man_2.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/man_2.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/raw_vid.mp4.flat",
+        "source": "com.apiguave.newTins.app-main-68:/raw/vid.mp4"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_woman_7.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/woman_7.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_ic_baseline_message_24.xml.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/ic_baseline_message_24.xml"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.apiguave.newTins.app-main-68:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/xml_backup_rules.xml.flat",
+        "source": "com.apiguave.newTins.app-main-68:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.apiguave.newTins.app-main-68:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_man_6.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/man_6.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_bine.jpg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/bine.jpg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_woman_9.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/woman_9.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_google_logo_48.png.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/google_logo_48.png"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_soc.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/soc.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.apiguave.newTins.app-main-68:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.apiguave.newTins.app-main-68:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.apiguave.newTins.app-main-68:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_ten.jpg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/ten.jpg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_man_7.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/man_7.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_man_10.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/man_10.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.apiguave.newTins.app-main-68:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_man_1.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/man_1.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_woman_8.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/woman_8.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_man_4.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/man_4.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_baseline_chevron_left_24.xml.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/baseline_chevron_left_24.xml"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_woman_11.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/woman_11.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_socor.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/socor.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_woman_2.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/woman_2.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_google_icon.png.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/google_icon.png"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_woman_3.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/woman_3.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_man_9.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/man_9.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_man_12.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/man_12.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.apiguave.newTins.app-main-68:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_ic_baseline_image_90.xml.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/ic_baseline_image_90.xml"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.apiguave.newTins.app-main-68:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_tinder_logo2.png.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/tinder_logo2.png"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_woman_6.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/woman_6.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_man_3.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/man_3.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/xml_filepaths.xml.flat",
+        "source": "com.apiguave.newTins.app-main-68:/xml/filepaths.xml"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_soc2.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/soc2.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.apiguave.newTins.app-main-68:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_tin.jpg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/tin.jpg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_woman_5.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/woman_5.jpeg"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_ic_baseline_photo_camera_90.xml.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/ic_baseline_photo_camera_90.xml"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_spor1.png.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/spor1.png"
+    },
+    {
+        "merged": "com.apiguave.newTins.app-merged_res-66:/drawable_woman_12.jpeg.flat",
+        "source": "com.apiguave.newTins.app-main-68:/drawable/woman_12.jpeg"
+    }
+]

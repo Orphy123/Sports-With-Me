@@ -1,0 +1,348 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.apiguave.newTins"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:25:5-67
+11-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:25:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:26:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] /Users/ohenebaberko/.gradle/caches/transforms-3/1cc3c437215ccd9ab123f33363c00041/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+15        android:name="com.apiguave.newTins.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] /Users/ohenebaberko/.gradle/caches/transforms-3/1cc3c437215ccd9ab123f33363c00041/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] /Users/ohenebaberko/.gradle/caches/transforms-3/1cc3c437215ccd9ab123f33363c00041/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.apiguave.newTins.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] /Users/ohenebaberko/.gradle/caches/transforms-3/1cc3c437215ccd9ab123f33363c00041/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] /Users/ohenebaberko/.gradle/caches/transforms-3/1cc3c437215ccd9ab123f33363c00041/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:6:5-36:19
+21        android:name="com.apiguave.newTins.ui.main.MainApp"
+21-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:7:9-60
+22        android:allowBackup="true"
+22-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:8:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] /Users/ohenebaberko/.gradle/caches/transforms-3/1cc3c437215ccd9ab123f33363c00041/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:9:9-65
+25        android:debuggable="true"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:10:9-54
+27        android:icon="@mipmap/spor"
+27-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:11:9-36
+28        android:label="@string/app_name"
+28-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:12:9-41
+29        android:roundIcon="@mipmap/spor"
+29-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:13:9-41
+30        android:supportsRtl="true"
+30-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:14:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.TinderCloneCompose" >
+32-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:15:9-56
+33        <provider
+33-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:17:9-25:20
+34            android:name="com.apiguave.newTins.ui.fileprovider.ComposeFileProvider"
+34-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:18:13-84
+35            android:authorities="com.apiguave.newTins.fileprovider"
+35-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:19:13-68
+36            android:exported="false"
+36-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:21:13-37
+37            android:grantUriPermissions="true" >
+37-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:20:13-47
+38            <meta-data
+38-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:22:13-24:53
+39                android:name="android.support.FILE_PROVIDER_PATHS"
+39-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:23:17-67
+40                android:resource="@xml/filepaths" />
+40-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:24:17-50
+41        </provider>
+42
+43        <activity
+43-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:26:9-35:20
+44            android:name="com.apiguave.newTins.ui.main.MainActivity"
+44-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:27:13-69
+45            android:exported="true"
+45-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:28:13-36
+46            android:theme="@style/Theme.TinderCloneCompose" >
+46-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:29:13-60
+47            <intent-filter>
+47-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:30:13-34:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:31:17-69
+48-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:31:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:33:17-77
+50-->/Users/ohenebaberko/Desktop/newTins/app/src/main/AndroidManifest.xml:33:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity
+53-->[androidx.compose.ui:ui-test-manifest:1.4.0] /Users/ohenebaberko/.gradle/caches/transforms-3/736f2dc6fdc18a0572682c794468de57/transformed/ui-test-manifest-1.4.0/AndroidManifest.xml:23:9-25:39
+54            android:name="androidx.activity.ComponentActivity"
+54-->[androidx.compose.ui:ui-test-manifest:1.4.0] /Users/ohenebaberko/.gradle/caches/transforms-3/736f2dc6fdc18a0572682c794468de57/transformed/ui-test-manifest-1.4.0/AndroidManifest.xml:24:13-63
+55            android:exported="true" />
+55-->[androidx.compose.ui:ui-test-manifest:1.4.0] /Users/ohenebaberko/.gradle/caches/transforms-3/736f2dc6fdc18a0572682c794468de57/transformed/ui-test-manifest-1.4.0/AndroidManifest.xml:25:13-36
+56        <activity
+56-->[androidx.compose.ui:ui-tooling:1.4.0] /Users/ohenebaberko/.gradle/caches/transforms-3/e6f07749c5648e880200dcc6fb6a844c/transformed/ui-tooling-1.4.0/AndroidManifest.xml:23:9-25:39
+57            android:name="androidx.compose.ui.tooling.PreviewActivity"
+57-->[androidx.compose.ui:ui-tooling:1.4.0] /Users/ohenebaberko/.gradle/caches/transforms-3/e6f07749c5648e880200dcc6fb6a844c/transformed/ui-tooling-1.4.0/AndroidManifest.xml:24:13-71
+58            android:exported="true" />
+58-->[androidx.compose.ui:ui-tooling:1.4.0] /Users/ohenebaberko/.gradle/caches/transforms-3/e6f07749c5648e880200dcc6fb6a844c/transformed/ui-tooling-1.4.0/AndroidManifest.xml:25:13-36
+59
+60        <service
+60-->[com.google.firebase:firebase-auth-ktx:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/823de7541670af661ba550be56ac2c6b/transformed/firebase-auth-ktx-21.3.0/AndroidManifest.xml:8:9-14:19
+61            android:name="com.google.firebase.components.ComponentDiscoveryService"
+61-->[com.google.firebase:firebase-auth-ktx:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/823de7541670af661ba550be56ac2c6b/transformed/firebase-auth-ktx-21.3.0/AndroidManifest.xml:9:13-84
+62            android:directBootAware="true"
+62-->[com.google.firebase:firebase-common:20.3.1] /Users/ohenebaberko/.gradle/caches/transforms-3/eff105eb4ba7ddc445fb0c050a2eb0de/transformed/firebase-common-20.3.1/AndroidManifest.xml:34:13-43
+63            android:exported="false" >
+63-->[com.google.firebase:firebase-auth-ktx:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/823de7541670af661ba550be56ac2c6b/transformed/firebase-auth-ktx-21.3.0/AndroidManifest.xml:10:13-37
+64            <meta-data
+64-->[com.google.firebase:firebase-auth-ktx:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/823de7541670af661ba550be56ac2c6b/transformed/firebase-auth-ktx-21.3.0/AndroidManifest.xml:11:13-13:85
+65                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+65-->[com.google.firebase:firebase-auth-ktx:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/823de7541670af661ba550be56ac2c6b/transformed/firebase-auth-ktx-21.3.0/AndroidManifest.xml:12:17-116
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-auth-ktx:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/823de7541670af661ba550be56ac2c6b/transformed/firebase-auth-ktx-21.3.0/AndroidManifest.xml:13:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:69:13-71:85
+68                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+68-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:70:17-109
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:71:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-firestore-ktx:24.5.0] /Users/ohenebaberko/.gradle/caches/transforms-3/737c259b5bac8411318d3eb78c396fe2/transformed/firebase-firestore-ktx-24.5.0/AndroidManifest.xml:14:13-16:85
+71                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+71-->[com.google.firebase:firebase-firestore-ktx:24.5.0] /Users/ohenebaberko/.gradle/caches/transforms-3/737c259b5bac8411318d3eb78c396fe2/transformed/firebase-firestore-ktx-24.5.0/AndroidManifest.xml:15:17-126
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-firestore-ktx:24.5.0] /Users/ohenebaberko/.gradle/caches/transforms-3/737c259b5bac8411318d3eb78c396fe2/transformed/firebase-firestore-ktx-24.5.0/AndroidManifest.xml:16:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-storage-ktx:20.1.0] /Users/ohenebaberko/.gradle/caches/transforms-3/164a703864142409caf05a3409d39c13/transformed/firebase-storage-ktx-20.1.0/AndroidManifest.xml:14:13-16:85
+74                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
+74-->[com.google.firebase:firebase-storage-ktx:20.1.0] /Users/ohenebaberko/.gradle/caches/transforms-3/164a703864142409caf05a3409d39c13/transformed/firebase-storage-ktx-20.1.0/AndroidManifest.xml:15:17-122
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-storage-ktx:20.1.0] /Users/ohenebaberko/.gradle/caches/transforms-3/164a703864142409caf05a3409d39c13/transformed/firebase-storage-ktx-20.1.0/AndroidManifest.xml:16:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-firestore:24.5.0] /Users/ohenebaberko/.gradle/caches/transforms-3/c61dde27cb2f14db5571a224c4dfe4dd/transformed/firebase-firestore-24.5.0/AndroidManifest.xml:19:13-21:85
+77                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+77-->[com.google.firebase:firebase-firestore:24.5.0] /Users/ohenebaberko/.gradle/caches/transforms-3/c61dde27cb2f14db5571a224c4dfe4dd/transformed/firebase-firestore-24.5.0/AndroidManifest.xml:20:17-111
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-firestore:24.5.0] /Users/ohenebaberko/.gradle/caches/transforms-3/c61dde27cb2f14db5571a224c4dfe4dd/transformed/firebase-firestore-24.5.0/AndroidManifest.xml:21:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-storage:20.1.0] /Users/ohenebaberko/.gradle/caches/transforms-3/7226e45b83170596d8bb0383304cb010/transformed/firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+80                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+80-->[com.google.firebase:firebase-storage:20.1.0] /Users/ohenebaberko/.gradle/caches/transforms-3/7226e45b83170596d8bb0383304cb010/transformed/firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-storage:20.1.0] /Users/ohenebaberko/.gradle/caches/transforms-3/7226e45b83170596d8bb0383304cb010/transformed/firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-common-ktx:20.3.1] /Users/ohenebaberko/.gradle/caches/transforms-3/247c209d69adc8a80cef456f54f3d97d/transformed/firebase-common-ktx-20.3.1/AndroidManifest.xml:14:13-16:85
+83                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+83-->[com.google.firebase:firebase-common-ktx:20.3.1] /Users/ohenebaberko/.gradle/caches/transforms-3/247c209d69adc8a80cef456f54f3d97d/transformed/firebase-common-ktx-20.3.1/AndroidManifest.xml:15:17-113
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-common-ktx:20.3.1] /Users/ohenebaberko/.gradle/caches/transforms-3/247c209d69adc8a80cef456f54f3d97d/transformed/firebase-common-ktx-20.3.1/AndroidManifest.xml:16:17-82
+85        </service>
+86
+87        <activity
+87-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:29:9-46:20
+88            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+88-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:30:13-80
+89            android:excludeFromRecents="true"
+89-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:31:13-46
+90            android:exported="true"
+90-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:32:13-36
+91            android:launchMode="singleTask"
+91-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:33:13-44
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+92-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:34:13-72
+93            <intent-filter>
+93-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:35:13-45:29
+94                <action android:name="android.intent.action.VIEW" />
+94-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:36:17-69
+94-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:36:25-66
+95
+96                <category android:name="android.intent.category.DEFAULT" />
+96-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:38:17-76
+96-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:38:27-73
+97                <category android:name="android.intent.category.BROWSABLE" />
+97-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:39:17-78
+97-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:39:27-75
+98
+99                <data
+99-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:41:17-44:51
+100                    android:host="firebase.auth"
+100-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:42:21-49
+101                    android:path="/"
+101-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:43:21-37
+102                    android:scheme="genericidp" />
+102-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:44:21-48
+103            </intent-filter>
+104        </activity>
+105        <activity
+105-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:47:9-64:20
+106            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+106-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:48:13-79
+107            android:excludeFromRecents="true"
+107-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:49:13-46
+108            android:exported="true"
+108-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:50:13-36
+109            android:launchMode="singleTask"
+109-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:51:13-44
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+110-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:52:13-72
+111            <intent-filter>
+111-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:53:13-63:29
+112                <action android:name="android.intent.action.VIEW" />
+112-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:36:17-69
+112-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:36:25-66
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:38:17-76
+114-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:38:27-73
+115                <category android:name="android.intent.category.BROWSABLE" />
+115-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:39:17-78
+115-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:39:27-75
+116
+117                <data
+117-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:41:17-44:51
+118                    android:host="firebase.auth"
+118-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:42:21-49
+119                    android:path="/"
+119-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:43:21-37
+120                    android:scheme="recaptcha" />
+120-->[com.google.firebase:firebase-auth:21.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ab448982cf98fb293cbb195f86dda625/transformed/firebase-auth-21.3.0/AndroidManifest.xml:44:21-48
+121            </intent-filter>
+122        </activity>
+123        <activity
+123-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ohenebaberko/.gradle/caches/transforms-3/da636fed046b564bbe2902db67206340/transformed/play-services-auth-20.5.0/AndroidManifest.xml:23:9-27:75
+124            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+124-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ohenebaberko/.gradle/caches/transforms-3/da636fed046b564bbe2902db67206340/transformed/play-services-auth-20.5.0/AndroidManifest.xml:24:13-93
+125            android:excludeFromRecents="true"
+125-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ohenebaberko/.gradle/caches/transforms-3/da636fed046b564bbe2902db67206340/transformed/play-services-auth-20.5.0/AndroidManifest.xml:25:13-46
+126            android:exported="false"
+126-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ohenebaberko/.gradle/caches/transforms-3/da636fed046b564bbe2902db67206340/transformed/play-services-auth-20.5.0/AndroidManifest.xml:26:13-37
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+127-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ohenebaberko/.gradle/caches/transforms-3/da636fed046b564bbe2902db67206340/transformed/play-services-auth-20.5.0/AndroidManifest.xml:27:13-72
+128        <!--
+129            Service handling Google Sign-In user revocation. For apps that do not integrate with
+130            Google Sign-In, this service will never be started.
+131        -->
+132        <service
+132-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ohenebaberko/.gradle/caches/transforms-3/da636fed046b564bbe2902db67206340/transformed/play-services-auth-20.5.0/AndroidManifest.xml:33:9-37:51
+133            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+133-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ohenebaberko/.gradle/caches/transforms-3/da636fed046b564bbe2902db67206340/transformed/play-services-auth-20.5.0/AndroidManifest.xml:34:13-89
+134            android:exported="true"
+134-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ohenebaberko/.gradle/caches/transforms-3/da636fed046b564bbe2902db67206340/transformed/play-services-auth-20.5.0/AndroidManifest.xml:35:13-36
+135            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+135-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ohenebaberko/.gradle/caches/transforms-3/da636fed046b564bbe2902db67206340/transformed/play-services-auth-20.5.0/AndroidManifest.xml:36:13-107
+136            android:visibleToInstantApps="true" />
+136-->[com.google.android.gms:play-services-auth:20.5.0] /Users/ohenebaberko/.gradle/caches/transforms-3/da636fed046b564bbe2902db67206340/transformed/play-services-auth-20.5.0/AndroidManifest.xml:37:13-48
+137
+138        <activity
+138-->[com.google.android.gms:play-services-base:18.0.1] /Users/ohenebaberko/.gradle/caches/transforms-3/a71998e39993db618c1c37699b7cbeb5/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+139            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+139-->[com.google.android.gms:play-services-base:18.0.1] /Users/ohenebaberko/.gradle/caches/transforms-3/a71998e39993db618c1c37699b7cbeb5/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+140            android:exported="false"
+140-->[com.google.android.gms:play-services-base:18.0.1] /Users/ohenebaberko/.gradle/caches/transforms-3/a71998e39993db618c1c37699b7cbeb5/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+141            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+141-->[com.google.android.gms:play-services-base:18.0.1] /Users/ohenebaberko/.gradle/caches/transforms-3/a71998e39993db618c1c37699b7cbeb5/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+142
+143        <provider
+143-->[com.google.firebase:firebase-common:20.3.1] /Users/ohenebaberko/.gradle/caches/transforms-3/eff105eb4ba7ddc445fb0c050a2eb0de/transformed/firebase-common-20.3.1/AndroidManifest.xml:25:9-30:39
+144            android:name="com.google.firebase.provider.FirebaseInitProvider"
+144-->[com.google.firebase:firebase-common:20.3.1] /Users/ohenebaberko/.gradle/caches/transforms-3/eff105eb4ba7ddc445fb0c050a2eb0de/transformed/firebase-common-20.3.1/AndroidManifest.xml:26:13-77
+145            android:authorities="com.apiguave.newTins.firebaseinitprovider"
+145-->[com.google.firebase:firebase-common:20.3.1] /Users/ohenebaberko/.gradle/caches/transforms-3/eff105eb4ba7ddc445fb0c050a2eb0de/transformed/firebase-common-20.3.1/AndroidManifest.xml:27:13-72
+146            android:directBootAware="true"
+146-->[com.google.firebase:firebase-common:20.3.1] /Users/ohenebaberko/.gradle/caches/transforms-3/eff105eb4ba7ddc445fb0c050a2eb0de/transformed/firebase-common-20.3.1/AndroidManifest.xml:28:13-43
+147            android:exported="false"
+147-->[com.google.firebase:firebase-common:20.3.1] /Users/ohenebaberko/.gradle/caches/transforms-3/eff105eb4ba7ddc445fb0c050a2eb0de/transformed/firebase-common-20.3.1/AndroidManifest.xml:29:13-37
+148            android:initOrder="100" />
+148-->[com.google.firebase:firebase-common:20.3.1] /Users/ohenebaberko/.gradle/caches/transforms-3/eff105eb4ba7ddc445fb0c050a2eb0de/transformed/firebase-common-20.3.1/AndroidManifest.xml:30:13-36
+149
+150        <meta-data
+150-->[com.google.android.gms:play-services-basement:18.2.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ce8cb6adaa502b4a19d8f34461dd7934/transformed/play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+151            android:name="com.google.android.gms.version"
+151-->[com.google.android.gms:play-services-basement:18.2.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ce8cb6adaa502b4a19d8f34461dd7934/transformed/play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+152            android:value="@integer/google_play_services_version" />
+152-->[com.google.android.gms:play-services-basement:18.2.0] /Users/ohenebaberko/.gradle/caches/transforms-3/ce8cb6adaa502b4a19d8f34461dd7934/transformed/play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+153
+154        <provider
+154-->[androidx.emoji2:emoji2:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/463ded63304c967ad2966f0a5419d141/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+155            android:name="androidx.startup.InitializationProvider"
+155-->[androidx.emoji2:emoji2:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/463ded63304c967ad2966f0a5419d141/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+156            android:authorities="com.apiguave.newTins.androidx-startup"
+156-->[androidx.emoji2:emoji2:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/463ded63304c967ad2966f0a5419d141/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+157            android:exported="false" >
+157-->[androidx.emoji2:emoji2:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/463ded63304c967ad2966f0a5419d141/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+158            <meta-data
+158-->[androidx.emoji2:emoji2:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/463ded63304c967ad2966f0a5419d141/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+159                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+159-->[androidx.emoji2:emoji2:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/463ded63304c967ad2966f0a5419d141/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+160                android:value="androidx.startup" />
+160-->[androidx.emoji2:emoji2:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/463ded63304c967ad2966f0a5419d141/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+161            <meta-data
+161-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/ohenebaberko/.gradle/caches/transforms-3/3c183847ce01ac0e7444302a76ef8b0e/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+162                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+162-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/ohenebaberko/.gradle/caches/transforms-3/3c183847ce01ac0e7444302a76ef8b0e/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+163                android:value="androidx.startup" />
+163-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/ohenebaberko/.gradle/caches/transforms-3/3c183847ce01ac0e7444302a76ef8b0e/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+164            <meta-data
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+165                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+166                android:value="androidx.startup" />
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+167        </provider>
+168
+169        <receiver
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+170            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+170-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+171            android:directBootAware="false"
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+172            android:enabled="true"
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+173            android:exported="true"
+173-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+174            android:permission="android.permission.DUMP" >
+174-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+175            <intent-filter>
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+176                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+176-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+176-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+177            </intent-filter>
+178            <intent-filter>
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+179                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+179-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+179-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+180            </intent-filter>
+181            <intent-filter>
+181-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+182                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+182-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+182-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+183            </intent-filter>
+184            <intent-filter>
+184-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+185                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+185-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+185-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/ohenebaberko/.gradle/caches/transforms-3/9471e75f52629b1ade4168bf725f3349/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+186            </intent-filter>
+187        </receiver>
+188    </application>
+189
+190</manifest>

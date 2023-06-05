@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="genders">
+<!--        used to be male-->
+        <item>Soccer</item>
+<!--        used to be female-->
+        <item>Tennis</item>
+    </string-array>
+    <string-array name="interests">
+        <item>Soccer</item>
+        <item>Tennis</item>
+        <item>Both</item>
+    </string-array>
+</resources>

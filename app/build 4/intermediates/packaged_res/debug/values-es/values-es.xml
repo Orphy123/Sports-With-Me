@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="genders">
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+    <string-array name="interests">
+        <item>Hombres</item>
+        <item>Mujeres</item>
+        <item>Ambos</item>
+    </string-array>
+    <string name="about_me">Sobre Mí</string>
+    <string name="app_name">newTins</string>
+    <string name="birth_date">Fecha de Nacimiento</string>
+    <string name="camera">Cámara</string>
+    <string name="cancel">Cancelar</string>
+    <string name="capture_from">Capturar desdde</string>
+    <string name="create_account">Crear cuenta</string>
+    <string name="create_new">Crear nuevo</string>
+    <string name="create_profile">Crear Perfil</string>
+    <string name="delete">Eliminar</string>
+    <string name="delete_confirmation_body">¿Estás seguro/a de que quieres eliminar esta foto?</string>
+    <string name="delete_confirmation_title">Confirmación</string>
+    <string name="done">Hecho</string>
+    <string name="edit_profile">Editar Perfil</string>
+    <string name="enter_your_name">Introduce tu nombre</string>
+    <string name="error">Error</string>
+    <string name="gender">Género</string>
+    <string name="generate_profiles">Generar perfiles</string>
+    <string name="i_am_interested_in">Me interesan</string>
+    <string name="its_a">It\'s a</string>
+    <string name="match">match!</string>
+    <string name="matches">Matches</string>
+    <string name="name">Nombre</string>
+    <string name="no_match_value_passed">No se pasó ningún valor para el match</string>
+    <string name="no_matches">Todavía no tienes ningún match :(</string>
+    <string name="no_more_profiles">¡No hay nadie más a tu alrededor!</string>
+    <string name="personal_information">Información Personal</string>
+    <string name="photo">Foto</string>
+    <string name="pick_a_date">Selecciona una fecha</string>
+    <string name="retry">Reintentar</string>
+    <string name="say_something_nice">¡Di algo bonito!</string>
+    <string name="select_content_type">Selecciona el tipo de contenido</string>
+    <string name="send">Enviar</string>
+    <string name="sign_in_with_google">Acceder con Google</string>
+    <string name="sign_out">Cerrar Sesión</string>
+    <string name="sign_up_with_google">Registrarse con Google</string>
+    <string name="upload">Subir</string>
+    <string name="write_something_interesting">Escribe algo interesante…</string>
+    <string name="you_matched_with_on">Hiciste match con %1$s el %2$s</string>
+</resources>

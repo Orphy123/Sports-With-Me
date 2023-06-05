@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">685475063023-mvr2hdk66arbs1t6p385d5ioa8pt9oq5.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://newtin-c922a-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">685475063023</string>
+    <string name="google_api_key" translatable="false">AIzaSyCWDrJkB-WCkXfsT97VGliTiEJj0QYKSFc</string>
+    <string name="google_app_id" translatable="false">1:685475063023:android:7417b18f901bcd2acee71a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCWDrJkB-WCkXfsT97VGliTiEJj0QYKSFc</string>
+    <string name="google_storage_bucket" translatable="false">newtin-c922a.appspot.com</string>
+    <string name="project_id" translatable="false">newtin-c922a</string>
+</resources>

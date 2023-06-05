@@ -1,0 +1,254 @@
+package com.apiguave.newTins.ui.signup
+
+import android.content.Intent
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.border
+import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Surface
+import androidx.compose.material.Text
+import androidx.compose.material.TextButton
+import androidx.compose.runtime.*
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.TextFieldValue
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.apiguave.newTins.R
+import com.apiguave.newTins.domain.profile.entity.CreateUserProfile
+import com.apiguave.newTins.domain.profile.entity.Orientation
+import com.apiguave.newTins.extensions.isValidUsername
+import com.apiguave.newTins.ui.components.*
+import com.google.android.gms.auth.api.signin.GoogleSignInClient
+import com.vanpra.composematerialdialogs.rememberMaterialDialogState
+import kotlinx.coroutines.launch
+import java.time.format.DateTimeFormatter
+import java.time.format.FormatStyle
+
+@Composable
+fun SignUpView(
+    uiState: SignUpUiState,
+    signInClient: GoogleSignInClient,
+    onAddPicture: () -> Unit,
+    onNavigateToHome: () -> Unit,
+    signUp: (data: Intent?, profile: CreateUserProfile) -> Unit,
+    removePictureAt: (Int) -> Unit
+) {
+
+    var showDeleteConfirmationDialog by remember { mutableStateOf(false) }
+    var showErrorDialog by remember { mutableStateOf(false) }
+
+    var deleteConfirmationPictureIndex by remember { mutableStateOf(0) }
+    var birthdate by rememberSaveable { mutableStateOf(eighteenYearsAgo) }
+    val dateDialogState = rememberMaterialDialogState()
+    var nameText by rememberSaveable(stateSaver = TextFieldValue.Saver) {
+        mutableStateOf(
+            TextFieldValue("")
+        )
+    }
+    var bioText by rememberSaveable(stateSaver = TextFieldValue.Saver) {
+        mutableStateOf(
+            TextFieldValue("")
+        )
+    }
+
+    var selectedGenderIndex by rememberSaveable { mutableStateOf(-1) }
+    var selectedOrientationIndex by rememberSaveable { mutableStateOf(-1) }
+
+    val isSignUpEnabled =
+        remember { derivedStateOf { nameText.text.isValidUsername() && uiState.pictures.size > 1 && selectedGenderIndex >= 0 && selectedOrientationIndex >= 0 } }
+    val coroutineScope = rememberCoroutineScope()
+
+    //Update UI state
+
+    LaunchedEffect(key1 = uiState, block = {
+        if (uiState.isUserSignedIn) {
+            onNavigateToHome()
+        }
+        if (uiState.errorMessage != null) {
+            showErrorDialog = true
+        }
+    })
+
+
+    val startForResult = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.StartActivityForResult(),
+        onResult = { activityResult ->
+            //Transforms the Uris to Bitmaps
+            val isMale = selectedGenderIndex == 0
+            val orientation = Orientation.values()[selectedOrientationIndex]
+            val profile = CreateUserProfile(
+                nameText.text,
+                birthdate,
+                bioText.text,
+                isMale,
+                orientation,
+                uiState.pictures.map { it.bitmap })
+            //Signs up with the information provided
+            signUp(activityResult.data, profile)
+        }
+    )
+
+    //Dialogs
+
+    if (showDeleteConfirmationDialog) {
+        DeleteConfirmationDialog(
+            onDismissRequest = { showDeleteConfirmationDialog = false },
+            onConfirm = {
+                showDeleteConfirmationDialog = false
+                removePictureAt(deleteConfirmationPictureIndex)
+            },
+            onDismiss = { showDeleteConfirmationDialog = false })
+    }
+
+    if (showErrorDialog) {
+        ErrorDialog(
+            errorDescription = uiState.errorMessage,
+            onDismissRequest = { showErrorDialog = false },
+            onConfirm = { showErrorDialog = false }
+        )
+    }
+
+    FormDatePickerDialog(dateDialogState, onDateChange = { birthdate = it })
+
+
+
+
+
+
+
+
+    Surface {
+        LazyColumn(
+            modifier = Modifier
+                .fillMaxWidth()
+                .wrapContentHeight()
+                .padding(horizontal = 16.dp),
+        ) {
+
+            item {
+                Text(
+                    text = stringResource(id = R.string.create_profile),
+                    modifier = Modifier.padding(top = 16.dp, bottom = 24.dp),
+                    fontSize = 30.sp,
+                    color = MaterialTheme.colors.onSurface,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+
+            items(RowCount) { rowIndex ->
+                PictureGridRow(
+                    rowIndex = rowIndex,
+                    pictures = uiState.pictures,
+                    onAddPicture = onAddPicture,
+                    onAddedPictureClicked = {
+                        showDeleteConfirmationDialog = true
+                        deleteConfirmationPictureIndex = it
+                    }
+                )
+            }
+            item {
+                Spacer(Modifier.height(32.dp))
+                Column(Modifier.fillMaxWidth()) {
+                    SectionTitle(title = stringResource(id = R.string.personal_information))
+                    FormTextField(
+                        value = nameText,
+                        placeholder = stringResource(id = R.string.enter_your_name),
+                        onValueChange = { newText ->
+                            nameText = newText
+                        },
+                        modifier = Modifier.padding(vertical = 8.dp)
+                    )
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .border(
+                                BorderStroke(
+                                    1.dp,
+                                    if (isSystemInDarkTheme()) Color.DarkGray else Color.LightGray
+                                )
+                            )
+                            .padding(vertical = 8.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Text(
+                            stringResource(id = R.string.birth_date),
+                            modifier = Modifier.padding(start = 8.dp),
+                            color = MaterialTheme.colors.onSurface
+                        )
+                        Spacer(modifier = Modifier.weight(1.0f))
+                        TextButton(
+                            onClick = { dateDialogState.show() },
+                            contentPadding = PaddingValues(
+                                start = 20.dp,
+                                top = 20.dp,
+                                end = 20.dp,
+                                bottom = 20.dp
+                            )
+                        ) {
+                            Text(
+                                birthdate.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG)),
+                                color = MaterialTheme.colors.onSurface
+                            )
+                        }
+                    }
+
+                    SectionTitle(title = stringResource(id = R.string.about_me))
+                    FormTextField(
+                        modifier = Modifier
+                            .height(128.dp)
+                            .padding(vertical = 8.dp),
+                        value = bioText,
+                        placeholder = stringResource(id = R.string.write_something_interesting),
+                        onValueChange = { bioText = it }
+                    )
+
+                    SectionTitle(title = stringResource(id = R.string.gender))
+                    Box(modifier = Modifier.padding(vertical = 8.dp)) {
+                        HorizontalPicker(
+                            id = R.array.genders,
+                            selectedIndex = selectedGenderIndex,
+                            onOptionClick = { selectedGenderIndex = it }
+                        )
+                    }
+
+
+                    SectionTitle(title = stringResource(id = R.string.i_am_interested_in))
+                    Box(modifier = Modifier.padding(vertical = 8.dp)) {
+                        HorizontalPicker(
+                            id = R.array.interests,
+                            selectedIndex = selectedOrientationIndex,
+                            onOptionClick = { selectedOrientationIndex = it },
+
+                            )
+                    }
+
+                    Spacer(Modifier.height(32.dp))
+
+                    GradientGoogleButton(enabled = isSignUpEnabled.value) {
+                        coroutineScope.launch {
+                            startForResult.launch(signInClient.signInIntent)
+                        }
+                    }
+                    Spacer(Modifier.height(32.dp))
+                }
+            }
+        }
+    }
+
+    if (uiState.isLoading) {
+        LoadingView()
+    }
+
+
+}
+
+
