@@ -1,13 +1,13 @@
-# Sports With Me
+# Sports With Me App Overview
 
-Sports With Me application written with Jetpack Compose and Firebase, following the MVVM architechture pattern with Kotlin coroutines, flows and dependency injection with Koin.
+"Sports with Me" is a unique mobile application, constructed using Jetpack Compose and Firebase, with Kotlin coroutines, flows, and Koin for dependency injection. Developed with a focus on promoting an active lifestyle, the app serves as a social sports networking platform connecting individuals seeking sports partners. Borrowing cues from Tinder's well-loved design, this application centers around sports activities with initial support for soccer and tennis.
 
-## Login and Create Profile
+## User Authentication and Profile Creation
 
 
-Only Google Sign in is allowed. Either of these two actions should be performed:
-* **If the user has an account:** Click on the "Sign in with Google" button and enter valid credentials. If the login is sucessful and the account exists, the user will be redirected to the home page, otherwise, an error dialog will apear.
-* **If the user doesn't has an account:** Click on the "Create a new account button" to navigate to the "Create Profile" screen.
+Secured through Firebase, the application allows sign-in exclusively via Google. Two alternatives are available for users:
+* **Existing Users:** By tapping on the "Sign in with Google" button and entering valid credentials, users are directed to the home page. If account authentication fails, an error message appears.
+* **New Users:** New users can navigate to the "Create Profile" screen by selecting the "Create a new account" button.
 
 In the Create Profile screen the user will be required to complete the following actions:
 * Add at least two profile pictures. These can be obtained through the phone's photo library or the device camera. The necessary permissions are requested accordingly.
@@ -18,27 +18,33 @@ In the Create Profile screen the user will be required to complete the following
 
 A bio up to 500 characters is optional. The remaining amount of characters are shown as the user is typing.
 
-Once the information has been filled in and the user clicks on the "Sign Up with Google button", if the user didn't exist before and the creation of the account was successful, the user will be redirected to the home page, otherwise an error dialog will appear.
+Successful account creation following the "Sign Up with Google" button redirects the user to the home page, whereas failed attempts trigger an error dialog.
 
-## Home screen
-Here the user will be able to browse through profiles and swipe left or right on them in a Tinder-like fashion. Both swipe and button click to perform these actions are supported. If a user likes a user that has liked them before, a match will be created. Once a profile has been liked or disliked it will not be shown again to that user. From here the user can access to:
+## Home Screen and Profile Interaction
+The home screen provides a Tinder-style interface where users can browse and swipe profiles. Both swipe gestures and button clicks are supported for liking or disliking profiles. A match is established when two users mutually like each other. Profiles will not reappear once they have been acted upon.
+
+From here the user can access to:
 * The Edit Profile screen
 * The Messages Screen
 
-Additionally, if you turn on the "allowProfileGeneration" flag from the "GenerateProfilesData.kt" file, a button will appear that will let you generate random profiles for testing purposes.
+For testing purposes, turning on the "allowProfileGeneration" flag in the "GenerateProfilesData.kt" file enables the generation of random profiles.
 
 
 
-## Edit Profile screen
-In this screen the user can modify the same fields as in the "create profile" screen except for the name and birth date. Their design is almost identical.
+
+## Profile Editing and Messaging
+The Edit Profile screen closely mirrors the "Create Profile" screen, permitting users to modify all fields except their name and birthdate.
+
+The Messages screen displays the user's matches and directs them to the Chat screen to exchange messages.
 
 
 
-## Messages screen
-Here the user will be able to see his matches and access the corresponding Chat screen to send them messages.
+
+## Chatting and Real-time Updates
+The Chat screen enables users to message their matches, with real-time updates powered by Firebase snapshot listeners.
 
 
+## Future Enhancements 
+Future plans for "Sports with Me" include expanding the range of sports, improving UI/UX, integrating geolocation features, and streamlining the onboarding process with photo verification, profile picture uploads, and interest selection.
 
-## Chat Screen
-Here the user will be able to send messages to his matches and they will be updated in real time using Firebase snaphot listeners.
 
