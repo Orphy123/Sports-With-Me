@@ -1,13 +1,24 @@
-# Sports With Me App Overview
+# Sports With Me App
 
 "Sports with Me" is a unique mobile application, constructed using Jetpack Compose and Firebase, with Kotlin coroutines, flows, and Koin for dependency injection. Developed with a focus on promoting an active lifestyle, the app serves as a social sports networking platform connecting individuals seeking sports partners. Borrowing cues from Tinder's well-loved design, this application centers around sports activities with initial support for soccer and tennis.
+
+
+
+<p float="left">
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p7.jpeg" width="50%" />
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p11.jpeg" width="50%" /> 
+</p>
+
+
 
 ## User Authentication and Profile Creation
 
 
 Secured through Firebase, the application allows sign-in exclusively via Google. Two alternatives are available for users:
 * **Existing Users:** By tapping on the "Sign in with Google" button and entering valid credentials, users are directed to the home page. If account authentication fails, an error message appears.
+  
 * **New Users:** New users can navigate to the "Create Profile" screen by selecting the "Create a new account" button.
+
 
 In the Create Profile screen the user will be required to complete the following actions:
 * Add at least two profile pictures. These can be obtained through the phone's photo library or the device camera. The necessary permissions are requested accordingly.
@@ -20,6 +31,13 @@ A bio up to 500 characters is optional. The remaining amount of characters are s
 
 Successful account creation following the "Sign Up with Google" button redirects the user to the home page, whereas failed attempts trigger an error dialog.
 
+<p float="left">
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p7.jpeg" width="30%" />
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p4.jpeg" width="30%" /> 
+   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p2.jpeg" width="30%" /> 
+</p>
+
+
 ## Home Screen and Profile Interaction
 The home screen provides a Tinder-style interface where users can browse and swipe profiles. Both swipe gestures and button clicks are supported for liking or disliking profiles. A match is established when two users mutually like each other. Profiles will not reappear once they have been acted upon.
 
@@ -28,6 +46,12 @@ From here the user can access to:
 * The Messages Screen
 
 For testing purposes, turning on the "allowProfileGeneration" flag in the "GenerateProfilesData.kt" file enables the generation of random profiles.
+
+<p float="left">
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p8.jpeg" width="30%" />
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p6.jpeg" width="30%" /> 
+   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p12.jpeg" width="30%" /> 
+</p>
 
 
 
@@ -43,6 +67,9 @@ The Messages screen displays the user's matches and directs them to the Chat scr
 ## Chatting and Real-time Updates
 The Chat screen enables users to message their matches, with real-time updates powered by Firebase snapshot listeners.
 
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p5.jpeg" />
+  
+ 
 
 ## Future Enhancements 
 Future plans for "Sports with Me" include expanding the range of sports, improving UI/UX, integrating geolocation features, and streamlining the onboarding process with photo verification, profile picture uploads, and interest selection.
