@@ -6,7 +6,7 @@
 
 <p float="left">
   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p7.jpeg" width="30%" />
-  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p11.jpeg" width="30%" /> 
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p10.jpeg" width="30%" /> 
 </p>
 
 
@@ -68,7 +68,7 @@ The Messages screen displays the user's matches and directs them to the Chat scr
 The Chat screen enables users to message their matches, with real-time updates powered by Firebase snapshot listeners.
 
 <p float="left">
-  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p5.jpeg" width="40%"  />
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p5.jpeg" width="30%"  />
   </p>
  
 
