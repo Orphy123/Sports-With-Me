@@ -37,7 +37,7 @@ Initially, the app supports connections for soccer and tennis enthusiasts, with 
 - **Instant Messaging:** Chat with your matches in real time.
 - **Firebase-Powered Updates:** Your chats are always in sync across devices, thanks to Firebase snapshot listeners.
 
-<p float="center">
+<p align="center">
   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p5.jpeg" width="30%"  />
   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p6.jpeg" width="30%"  />
   
@@ -51,7 +51,9 @@ Initially, the app supports connections for soccer and tennis enthusiasts, with 
 
 <p align="center">
   
-  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/gif2Full.gif" width="40%" />
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/firstPart.gif" width="30%" />
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/second.gif" width="30%" />
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/last.gif" width="30%" />
   
 </p>
 
