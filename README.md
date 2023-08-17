@@ -1,6 +1,6 @@
 # Sports With Me App 🏆🤝
 
-![Screenshots of the App](https://github.com/Orphy123/Sports-With-Me/blob/main/images/cover.png)
+![Screenshots of the App](https://github.com/Orphy123/Sports-With-Me/blob/main/images/p10.jpeg)
 
 "Sports with Me" is a groundbreaking mobile application designed to encourage an active lifestyle through social connection. Think of it as Tinder for sports partners!
 
