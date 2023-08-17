@@ -1,78 +1,64 @@
-# Sports With Me App
+# Sports With Me App 🏆🤝
 
-"Sports with Me" is a unique mobile application, constructed using Jetpack Compose and Firebase, with Kotlin coroutines, flows, and Koin for dependency injection. Developed with a focus on promoting an active lifestyle, the app serves as a social sports networking platform connecting individuals seeking sports partners. Borrowing cues from Tinder's well-loved design, this application centers around sports activities with initial support for soccer and tennis.
+![Screenshots of the App](https://github.com/Orphy123/Sports-With-Me/blob/main/images/cover.png)
 
+"Sports with Me" is a groundbreaking mobile application designed to encourage an active lifestyle through social connection. Think of it as Tinder for sports partners!
 
+This app is built using modern Android development tools:
+- 🎨 Jetpack Compose for UI
+- ☁️ Firebase for Backend
+- 🛠 Koin for Dependency Injection
+- 🌀 Kotlin Coroutines and Flows for Asynchronous tasks
+
+Initially, the app supports connections for soccer and tennis enthusiasts, with plans for more!
+
+## Features 🚀
+
+### User Authentication and Profile Creation 🔑
+- **Google Sign-In Integration:** Secure and fast sign-in with Google.
+- **Profile Creation:** New users can effortlessly create a profile, providing pictures, a user name, birth date, sport preference, and more.
 
 <p float="left">
   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p7.jpeg" width="30%" />
   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p10.jpeg" width="30%" /> 
 </p>
 
+### Swipe and Match ❤️
+- **Browse Profiles:** Navigate through profiles just like Tinder. Swipe right if you're interested, left if you're not.
+- **Mutual Likes:** A match is made when two users like each other.
 
-
-## User Authentication and Profile Creation
-
-
-Secured through Firebase, the application allows sign-in exclusively via Google. Two alternatives are available for users:
-* **Existing Users:** By tapping on the "Sign in with Google" button and entering valid credentials, users are directed to the home page. If account authentication fails, an error message appears.
-  
-* **New Users:** New users can navigate to the "Create Profile" screen by selecting the "Create a new account" button.
-
-
-In the Create Profile screen the user will be required to complete the following actions:
-* Add at least two profile pictures. These can be obtained through the phone's photo library or the device camera. The necessary permissions are requested accordingly.
-* Provide a user name.
-* Provide a birth date. This will be used to calculate their age.
-* Provide a sport preference (in order to simplify profile fetching only two options are available).
-* Provide a preference: their own sport, the opposite sport or both.
-
-A bio up to 500 characters is optional. The remaining amount of characters are shown as the user is typing.
-
-Successful account creation following the "Sign Up with Google" button redirects the user to the home page, whereas failed attempts trigger an error dialog.
-
-<p float="left">
-  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p7.jpeg" width="30%" />
-  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p4.jpeg" width="30%" /> 
-   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p2.jpeg" width="30%" /> 
-</p>
-
-
-## Home Screen and Profile Interaction
-The home screen provides a Tinder-style interface where users can browse and swipe profiles. Both swipe gestures and button clicks are supported for liking or disliking profiles. A match is established when two users mutually like each other. Profiles will not reappear once they have been acted upon.
-
-From here the user can access to:
-* The Edit Profile screen
-* The Messages Screen
-
-For testing purposes, turning on the "allowProfileGeneration" flag in the "GenerateProfilesData.kt" file enables the generation of random profiles.
-
-<p float="left">
-  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p8.jpeg" width="30%" />
-  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p6.jpeg" width="30%" /> 
-   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p12.jpeg" width="30%" /> 
-</p>
-
-
-
-
-## Profile Editing and Messaging
-The Edit Profile screen closely mirrors the "Create Profile" screen, permitting users to modify all fields except their name and birthdate.
-
-The Messages screen displays the user's matches and directs them to the Chat screen to exchange messages.
-
-
-
-
-## Chatting and Real-time Updates
-The Chat screen enables users to message their matches, with real-time updates powered by Firebase snapshot listeners.
+### Messaging and Real-time Chat 💬
+- **Instant Messaging:** Chat with your matches in real time.
+- **Firebase-Powered Updates:** Your chats are always in sync across devices, thanks to Firebase snapshot listeners.
 
 <p float="left">
   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p5.jpeg" width="30%"  />
-  </p>
- 
+</p>
 
-## Future Enhancements 
-Future plans for "Sports with Me" include expanding the range of sports, improving UI/UX, integrating geolocation features, and streamlining the onboarding process with photo verification, profile picture uploads, and interest selection.
+### Profile Editing 🎨
+- **Flexible Profile Management:** Users are free to update their profiles, except for their name and birthdate.
 
+## Upcoming Features 🔮
+- Expanding the range of supported sports.
+- Enhancing UI/UX for an even smoother user experience.
+- Integrating geolocation features for local matches.
+- Streamlining onboarding with photo verification and profile picture uploads.
+- Advanced interest selection to help users find the perfect match.
 
+## Acknowledgments 🙌
+This project was inspired by several features (such as the swipe functionality of cards and the matching & messaging features) from the [TinderCloneCompose](https://github.com/alejandro-piguave/TinderCloneCompose) project by Alejandro Piguave.
+
+## Getting Started 🛠
+1. **Clone the Repository:** 
+git clone https://github.com/Orphy123/Sports-With-Me.git
+2. **Open the project with Android Studio and Build the Project.**
+3. **Run the project on an emulator or a physical device.**
+
+## Note ⚠️
+The file "google-services.json" inside the "app" directory that is required for the project to work is missing. You will need to connect it to your own Firebase project.
+
+## Contributions 🤝
+We welcome contributions to "Sports With Me"! Feel free to open an issue, create a pull request, or just check out the code.
+
+## Author 👨‍💻
+Oheneba Berko
