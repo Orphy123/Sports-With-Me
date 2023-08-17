@@ -1,6 +1,11 @@
 # Sports With Me App 🏆🤝
 
-![Screenshots of the App](https://github.com/Orphy123/Sports-With-Me/blob/main/images/p10.jpeg)
+<p float="left">
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p7.jpeg" width="30%" />
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p10.jpeg" width="30%" /> 
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p12.jpeg" width="30%" /> 
+  
+</p>
 
 "Sports with Me" is a groundbreaking mobile application designed to encourage an active lifestyle through social connection. Think of it as Tinder for sports partners!
 
@@ -20,7 +25,8 @@ Initially, the app supports connections for soccer and tennis enthusiasts, with 
 
 <p float="left">
   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p7.jpeg" width="30%" />
-  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p10.jpeg" width="30%" /> 
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p3.jpeg" width="30%" /> 
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p4.jpeg" width="30%" /> 
 </p>
 
 ### Swipe and Match ❤️
