@@ -1,11 +1,11 @@
 # Sports With Me App 🏆🤝
 
-<p float="left">
+<p align="center">
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/gif1.gif" width="30%" />
   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p7.jpeg" width="30%" />
-  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p10.jpeg" width="30%" /> 
-  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p12.jpeg" width="30%" /> 
-  
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p10.jpeg" width="30%" />
 </p>
+
 
 "Sports with Me" is a groundbreaking mobile application designed to encourage an active lifestyle through social connection. Think of it as Tinder for sports partners!
 
@@ -25,8 +25,8 @@ Initially, the app supports connections for soccer and tennis enthusiasts, with 
 
 <p float="left">
   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p7.jpeg" width="30%" />
-  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p3.jpeg" width="30%" /> 
   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p4.jpeg" width="30%" /> 
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p3.jpeg" width="30%" /> 
 </p>
 
 ### Swipe and Match ❤️
@@ -37,12 +37,24 @@ Initially, the app supports connections for soccer and tennis enthusiasts, with 
 - **Instant Messaging:** Chat with your matches in real time.
 - **Firebase-Powered Updates:** Your chats are always in sync across devices, thanks to Firebase snapshot listeners.
 
-<p float="left">
+<p float="center">
   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p5.jpeg" width="30%"  />
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p6.jpeg" width="30%"  />
+  
 </p>
 
 ### Profile Editing 🎨
 - **Flexible Profile Management:** Users are free to update their profiles, except for their name and birthdate.
+
+
+### Full Navigation of the Application 
+
+<p align="center">
+  
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/gif2Full.gif" width="30%" />
+  
+</p>
+
 
 ## Upcoming Features 🔮
 - Expanding the range of supported sports.
