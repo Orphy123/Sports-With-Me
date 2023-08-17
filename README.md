@@ -23,7 +23,7 @@ Initially, the app supports connections for soccer and tennis enthusiasts, with 
 - **Google Sign-In Integration:** Secure and fast sign-in with Google.
 - **Profile Creation:** New users can effortlessly create a profile, providing pictures, a user name, birth date, sport preference, and more.
 
-<p float="left">
+<p float="center">
   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p7.jpeg" width="30%" />
   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p4.jpeg" width="30%" /> 
   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p3.jpeg" width="30%" /> 
@@ -51,7 +51,7 @@ Initially, the app supports connections for soccer and tennis enthusiasts, with 
 
 <p align="center">
   
-  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/gif2Full.gif" width="30%" />
+  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/gif2Full.gif" width="40%" />
   
 </p>
 
