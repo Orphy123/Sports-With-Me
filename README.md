@@ -66,7 +66,7 @@ Initially, the app supports connections for soccer and tennis enthusiasts, with 
 - Advanced interest selection to help users find the perfect match.
 
 ## Acknowledgments 🙌
-This project was inspired by several features (such as the swipe functionality of cards and the matching & messaging features) from the [TinderCloneCompose](https://github.com/alejandro-piguave/TinderCloneCompose) project by Alejandro Piguave.
+This project was inspired by the [TinderCloneCompose](https://github.com/alejandro-piguave/TinderCloneCompose) project by Alejandro Piguave.
 
 ## Getting Started 🛠
 1. **Clone the Repository:** 
