@@ -1,7 +1,6 @@
 # Sports With Me App 🏆🤝
 
 <p align="center">
-  <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/gif1.gif" width="30%" />
  
   <img src="https://github.com/Orphy123/Sports-With-Me/blob/main/images/p10.jpeg" width="30%" />
 </p>
