@@ -65,9 +65,6 @@ Initially, the app supports connections for soccer and tennis enthusiasts, with 
 - Streamlining onboarding with photo verification and profile picture uploads.
 - Advanced interest selection to help users find the perfect match.
 
-## Acknowledgments 🙌
-This project was inspired by the [TinderCloneCompose](https://github.com/alejandro-piguave/TinderCloneCompose) project by Alejandro Piguave.
-
 ## Getting Started 🛠
 1. **Clone the Repository:** 
 git clone https://github.com/Orphy123/Sports-With-Me.git
